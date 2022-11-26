@@ -30,6 +30,9 @@ body {
 }
 
 .item {
+  display: flex;
+  justify-self: center;
+  align-items: center;
   width: 150px;
   height: 66px;
   border: 1px solid #eee;
@@ -38,7 +41,7 @@ body {
   background: #f7f6f7;
   padding: 0.8rem 1rem;
   color: #828282;
-  text-align: center;
+  /* text-align: center; */
   cursor: grab;
 }
 
